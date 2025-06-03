@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<package format="3">
+  <name>piper_moveit_servo</name>
+  <version>0.0.0</version>
+  <description>MoveIt Servo demo nodes for Piper robot</description>
+
+  <maintainer email="nomura@todo.todo">nomura</maintainer>
+  <license>MIT</license>
+
+  <!-- ビルドツール -->
+  <buildtool_depend>ament_cmake</buildtool_depend>
+
+  <!-- 実行時およびビルド時の依存関係 -->
+  <depend>rclcpp</depend>
+  <depend>geometry_msgs</depend>
+  <depend>control_msgs</depend>
+  <depend>moveit_ros_planning_interface</depend>
+  <depend>moveit_servo</depend>
+
+  <!-- テスト関連 -->
+  <test_depend>ament_lint_auto</test_depend>
+  <test_depend>ament_lint_common</test_depend>
+
+  <!-- エクスポート情報 -->
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>
